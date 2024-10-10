@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="navbar">
+      <div class="nav-left">
+        <p class="RhythmWave">RhythmWave</p>
+      </div>
+      <svg class="menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu">
+        <line x1="4" x2="20" y1="12" y2="12" />
+        <line x1="4" x2="20" y1="6" y2="6" />
+        <line x1="4" x2="20" y1="18" y2="18" />
+      </svg>
+      <div class="nav-right">
+        <a class="element" href=#Overview>Overview</a>
+        <a class="element" href=#Music>Music</a>
+        <a class="element" href=#Video>Video</a>
+        <a class="element" href=#Giftcards>Giftcards</a>
+      </div>
+    </div>
+    <div class="Overview" id="Overview">
+      <h1 class="h1">RhythmWave</h1>
+      <h2 class="h2">TURN ON THE FEELING WITH THE MUSIC</h2>
+      <p class="p">With RhythmWave, music isn't just something you hear;it's an experience you feel. Let the waves
+        of rhythm carry you to new musical heights!</p>
+    </div>
+  </div>
+  <div class="Music" id="Music">
+    <div class="m1">
+      <img class="logo" src="https://cdn-icons-png.flaticon.com/512/1214/1214675.png">
+      <h1 class="m2">Music</h1>
+      <h2 class="m3">50 million songs. Zero ads.</h2>
+      <p>Stream over 50 million songs, ad-free Or download albums and tracks to listen to offline.<br> All the music in
+        your personal RhythmWave library no matter where it came from.<br> Start your free three-month trial with no
+        commitment, and cancel anytime.</p> 
+      </div>
+        <button class="trail-button">Start Your Trail Now</button>
+        <p class="orange">Available on iOS and Android, bringing your music to life wherever you go.</p>
+    <div class="images">
+      <h2 class="m6">Featured content</h2>
+      <div class="songs-container">
+        <div class="image-container">
+          <img src="https://upload.wikimedia.org/wikipedia/en/d/d1/Babycoverart.jpg">
+          <button onclick="playSong('justin.mp3')">Play Now</button>
+          <button onclick="stopSong()">Stop</button>
+        </div>
+        <div class="image-container">
+          <img
+            src="data:image/jpeg;base64,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">
+          <button onclick="playSong('lvr.mp3')">Play Now</button>
+          <button onclick="stopSong()">Stop</button>
+        </div>
+        <div class="image-container">
+          <img
+            src="https://cdns-images.dzcdn.net/images/cover/1a4b3f5a1edd5e7c43ed8e11fb2f021c/0x1900-000000-80-0-0.jpg">
+          <button onclick="playSong('dd.mp3')">Play Now</button>
+          <button onclick="stopSong()">Stop</button>
+        </div>
+        <div class="image-container">
+          <img
+            src="https://cdns-images.dzcdn.net/images/cover/feb7d661b14f4b4950cf8f0b9d433a03/0x1900-000000-80-0-0.jpg">
+          <button onclick="playSong('blr.mp3')">Play Now</button>
+          <button onclick="stopSong()">Stop</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="Video" id="Video">
+    <iframe width=1050px; height=600px; src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe>
+  </div>
+  <div class="Giftcards" id="Giftcards">
+    <div class="left">
+      <img class="gc" src="https://practice-project-html-css.vercel.app/Project%206/images/gift_card.png">
+    </div>
+    <div class="right">
+      <h1 class="rt1">GiftCards</h1>
+      <p class="rt2">Looking for the perfect gift for creative individuals in your life?Whether they're musicians,
+        YouTubers, streamers, or indie filmmakers, our TuneTailors Gift Cards are a fantastic way tosupport
+        their creative endeavors. These cards provide the freedom to access a range of professional music
+        servicesincluding composition, arrangement, production, and more.</p>
+      <button>Reedem </button>
+    </div>
+  </div>
+
+  <section style="padding-bottom: 50px;">
+
+  </section>
+
+  <footer style="background-color: #222; color: #fff; padding: 15px 0; text-align: center; margin-top: 10px;">
+    <div >
+      <p>&copy; 2024 RhythmWave</p>
+      <p>Available on iOS and Android</p>
+    </div>
+
+    <div>
+      <a href="https://facebook.com" target="_blank" style="color: #fff; margin-right: 10px;">Facebook</a>
+      <a href="https://instagram.com" target="_blank" style="color: #fff; margin-right: 10px;">Instagram</a>
+      <a href="https://twitter.com" target="_blank" style="color: #fff;">Twitter</a>
+    </div>
+
+    <div>
+      <a href="about.html" style="color: #fff; margin-right: 10px;">About Us</a> |
+      <a href="support.html" style="color: #fff; margin-right: 10px;">Support</a> |
+      <a href="privacy.html" style="color: #fff;">Privacy Policy</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

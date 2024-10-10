@@ -1,0 +1,297 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  } /* to remove external padding and margin by browser */
+  
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    background-color: bisque;
+    width: 100%;
+  }
+  .container {
+    background-image: url("https://images3.alphacoders.com/110/thumb-1920-1106874.jpg");
+    height: 100vh; /* Adjust the height of the div(used vh(viewport height) to occupy full viewed height) */
+    /* border: 2px solid red; */
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+  }
+  
+  .menu {
+    display: none;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* to center the rhytm and nav-right */
+    padding: 1.5rem; /* padding to navbar instead of its children */
+    /* height: 80px; */
+    /* color: white;  default is white*/
+    /* border: 2px solid red; */
+    width: 100%;
+    backdrop-filter: blur(2px);
+  }
+  .RhythmWave {
+    /* height: 20px;
+    padding-left: 3px;
+    margin: 1px;
+    padding-bottom: 10px; */
+    font-size: clamp(2rem, 3vw, 5rem);
+    text-align: center;
+    color: white;
+  }
+  .nav-right {
+    /* padding-right: 30px; */
+    justify-content: space-between;
+    text-align: center;
+    /* padding-top: 30px; */
+    word-spacing: 20px;
+    font-size: clamp(1rem, 2vw, 4.5rem);
+    color: white;
+  }
+  .Overview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center;
+    /* background-repeat: no-repeat; */
+    font-size: clamp(1rem, 2vw, 4.5rem);
+    /* padding: 70px; */
+    /* border: 2px solid blue; */
+    height: 80%;
+    /* border: 2px solid red; */
+    color: white;
+    padding: 10px;
+  }
+  .p {
+    text-align: center;
+    /* color: white; */
+    font-size: clamp(1rem, 1.5vw, 4rem);
+  }
+  .h1 {
+    /* color: white; */
+    /* font-size: 50px; */
+    font-size: clamp(2rem, 4vw, 8rem);
+  }
+  .h2 {
+    /* font-size: 40px; */
+    font-size: clamp(1.5rem, 2vw, 6rem);
+    text-align: center;
+    /* color: white; */
+  }
+  
+  .m1 p {
+    font-size: clamp(1rem, 1.5vw, 4rem);
+  }
+  
+  .m2 {
+    font-size: clamp(2rem, 4vw, 8rem);
+  }
+  
+  .m3 {
+    font-size: clamp(1.5rem, 2vw, 6rem);
+  }
+  .Music {
+    text-align: center;
+    background-color: bisque;
+    /* font-size: clamp(2rem, 3vw, 5rem); */
+    /* background-position: 500px; */
+    padding: 2rem;
+    /* border: 2px solid red; */
+  }
+  
+  .trail-button {
+    margin: 1rem;
+  }
+  .logo {
+    /* border: 2px solid red; */
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    /* padding-top: 40px; */
+  }
+  .orange {
+    font-size: clamp(1rem, 1vw, 4rem);
+  }
+  
+  /* .left {
+      width: 40vw;
+  }
+  .right {
+      width: 60vw;
+  } */
+  .element {
+    color: white;
+  }
+  .Video {
+    text-align: center;
+    /* object-fit: contain; */
+    /* background-color: white; */
+    /* border: 2px solid red; */
+  }
+  
+  .Video iframe {
+    max-width: 100%;
+    min-width: 80%;
+  }
+  
+  .Above {
+    font-size: clamp(1rem, 1.5vw, 4rem);
+  }
+  .songs-container {
+    /* margin: 1rem; */
+    /* border: 2px solid red; */
+  }
+  
+  .images {
+    margin-top: 1.5rem;
+  }
+  .image-container {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    /* padding: 1rem; */
+    /* border: 2px solid red; */
+  }
+  
+  .image-container img {
+    width: 250px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+    /* border: 2px solid red; */
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 8px 20px;
+    border-radius: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .trail-button {
+    margin-top: 1.5rem;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  .lap {
+    margin: 1rem;
+    /* height: 700px; */
+    /* width: 1000px; */
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%;
+      height: 100%; */
+  }
+  .m4 {
+    font-size: clamp(1rem, 1.5vw, 4rem);
+    text-align: center;
+  }
+  .m5 {
+    font-size: clamp(1rem, 1.5vw, 4rem);
+    text-align: center;
+  }
+  .m6 {
+    font-size: clamp(2rem, 4vw, 8rem);
+  }
+  .Giftcards {
+    text-align: center;
+    background-color: bisque;
+    font-size: clamp(1rem, 1.5vw, 4rem);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+  }
+  .gc {
+    width: 100%;
+    object-fit: contain;
+    /* padding-top: 50px; */
+  }
+  .left {
+    width: 40%;
+  }
+  .right {
+    width: 60%;
+  }
+  
+  .rt1 {
+    font-size: clamp(1.5rem, 2.5vw, 6rem);
+  }
+  
+  .rt2 {
+    font-size: clamp(1rem, 1.5vw, 4rem);
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 1830px) {
+    .logo {
+      /* border: 2px solid red; */
+      width: 80px;
+      height: 80px;
+      text-align: center;
+      /* padding-top: 40px; */
+    }
+    .image-container img {
+      width: 500px;
+      height: 600px;
+      display: block;
+      margin: 0 auto;
+      object-fit: contain;
+      /* border: 2px solid red; */
+    }
+  
+    button {
+      margin: 2rem;
+      padding: 10px 25px;
+      border-radius: 10px;
+      font-size: 2rem;
+    }
+  
+    footer {
+      font-size: 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 570px) {
+    .menu {
+      display: inline;
+    }
+  
+    .nav-right {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      align-items: center;
+      justify-content: center;
+      top: 11vh;
+      right: 0;
+      font-weight: 700;
+      font-size: 1rem;
+      /* background-color: bisque; */
+      /* border-radius: 10px; */
+      backdrop-filter: blur(2px);
+      margin: 0;
+    }
+  
+    .element {
+      margin: 10px;
+      color: white;
+    }
+  
+    .gc {
+      text-align: justify;
+    }
+  }
